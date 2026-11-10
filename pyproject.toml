@@ -14,3 +14,7 @@ dependencies = [
 
 [tool.uv]
 package = false
+# safe-pysha3 (pulled in by eth-tester[py-evm] -> eth-hash[pysha3]) ships no
+# Windows wheels and needs MSVC to build. eth-hash falls back to the
+# pycryptodome backend (already required by web3), so never install it.
+override-dependencies = ["safe-pysha3; sys_platform == 'never'"]
