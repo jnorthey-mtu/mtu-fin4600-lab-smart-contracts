@@ -1,0 +1,16 @@
+[project]
+name = "mtu-fin4600-lab-smart-contracts"
+version = "1.0.0"
+description = "FIN 4600 lab: compile, deploy, attack and fix Solidity smart contracts on an in-memory Ethereum test chain"
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "web3[tester]>=7.0",
+    "py-solc-x>=2.0",
+    "pandas>=2.0",
+    "matplotlib>=3.8",
+    "jupyterlab>=4.0",
+]
+
+[tool.uv]
+package = false
