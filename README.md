@@ -30,13 +30,14 @@ Open `smart_contracts_lab.ipynb` and run the cells in order (Shift+Enter).
 
 | # | Mission | Points |
 |---|---|---|
-| 1 | Accounts, addresses, and why ether is counted in wei | 10 |
-| 2 | A free *read* vs. a paid *transaction*, and what gas costs | 15 |
-| 3 | Access control: one line decides who may act | 15 |
-| 4 | The escrow from Figure 5.3, with no bank in the middle | 15 |
-| 5 | A token the issuer can freeze | 10 |
-| 6 | The 2016 DAO hack, re-created and fixed | 20 |
-| 7 | What it all cost, and what a Layer 2 changes | 15 |
+| 1 | Accounts, addresses, and why ether is counted in wei | 3 |
+| 2 | A free *read* vs. a paid *transaction*, and what gas costs | 6 |
+| 3 | Access control: one line decides who may act | 3 |
+| 4 | The escrow from Figure 5.3, with no bank in the middle | 6 |
+| 5 | A token the issuer can freeze | 3 |
+| 6 | The 2016 DAO hack, re-created and fixed | 6 |
+| 7 | What it all cost, and what a Layer 2 changes | 3 |
+| | **Total** | **30** |
 
 Look for 🔮 (predict before you run), 🧪 (change one value and run again) and ✍️ (written answer, graded).
 
